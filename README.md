@@ -19,7 +19,7 @@ model_name = 'nature_photo.pth'  # e.g. nature_photo.pth
 
 All the image in the sources will be processed.
 
-The results will be packaged in a directory under res. `Naming rules`: model_name_number.
+The results will be packaged in a directory under res. `Naming rules`: model_name_number.**e.g.** `nature_photo.pth_0`
 
 Resolution of results are 768*768. There is many ways to get higher resolution(I am working on one based on a paper from 2022 CVPR)
 
