@@ -1,6 +1,6 @@
 # cycle_gan_inference
 
-Original Model is from [junyanz_Cycle-Gan](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix),I modified structure and applya another training strategy.
+Original Model is from [junyanz_Cycle-Gan](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix),I modified structure and apply another training strategy to get weights file. Once everything is finished, I will upload modified version here.
 
 ## To use this repo
 
