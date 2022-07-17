@@ -24,5 +24,7 @@ The results will be packaged in a directory under res. `Naming rules`: model_nam
 Resolution of results are 768*768. There is many ways to get higher resolution(I am working on one based on a paper from 2022 CVPR)
 
 ## Lets see example results
-![image](https://user-images.githubusercontent.com/89610539/179400998-0da09648-4ad2-496a-9c02-9dab9af4024c.png)
-![image](https://user-images.githubusercontent.com/89610539/179401012-957b7ae8-f9b1-4050-b4c9-893bf93ca5dd.png)
+**photo -> painting**  
+<img src="/example_img/0.jpg" width = "400" height = "400" alt="" align=center />         <img src="/example_img/00.png" width = "400" height = "400" alt="" align=center />  
+<img src="/example_img/1.jpg" width = "400" height = "400" alt="" align=center />         <img src="/example_img/11.png" width = "400" height = "400" alt="" align=center />
+<img src="/example_img/2.jpg" width = "400" height = "400" alt="" align=center />         <img src="/example_img/22.png" width = "400" height = "400" alt="" align=center />
