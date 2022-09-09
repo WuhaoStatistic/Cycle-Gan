@@ -78,18 +78,18 @@ def run(model_na):
     print('-----All Finished-----')
 
 
-def carema_run(model_na):
+def carema_run(model_na,device_number=0,stop_key =1):
     model = get_generator('weight/' + model_na)
     res = build_target_directory(model_na)
     count = 0
     # 捕获序号为0的摄像头
-    cameroCapture = cv2.VideoCapture(0)
+    cameroCapture = cv2.VideoCapture(device_number)
     # 创建窗口
     # cv2.namedWindow('window')
     # cv2.setMouseCallback('window',onMouse)
     # 读取帧
     success, frame = cameroCapture.read()
-    while success and cv2.waitKey(1) == -1:
+    while success and cv2.waitKey(stop_key) == -1:
         # cv2.imshow('window', frame)
         success, frame = cameroCapture.read()
         img = np.array(cv2.cvtColor(frame,cv2.COLOR_BGR2RGB))
@@ -110,6 +110,8 @@ if __name__ == '__main__':
     model_name = 'nature_photo.pth'  # e.g. nature_photo.pth
     carema = True
     if carema:
-        carema_run(model_name)
+        device_number = 0
+        stop_key = 1
+        carema_run(model_name,device_number,stop_key)
     else:
         run(model_name)
