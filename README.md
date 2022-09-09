@@ -4,7 +4,7 @@ Original Model is from [junyanz_Cycle-Gan](https://github.com/junyanz/pytorch-Cy
 
 ## To use this repo
 
-The **only** three things you need to do :
+The **only** three things you need to do if you want to use local photo:
 
 1 Put sources image in the  `sources` directory.  
 
@@ -15,6 +15,8 @@ model_name = 'nature_photo.pth'  # e.g. nature_photo.pth
 
 3 click `run` or press `shift+F10`. Then go to `res` directory to see the results.
 
+If you want to use a carema,then run `test_carema.py`,**remember to press key 1** when you want to stop.
+The default carema device is 0
 ## Notice that
 
 All the image in the sources will be processed.
